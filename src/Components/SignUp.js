@@ -126,7 +126,7 @@ function SignUp() {
 
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
-            <Form.Group className="mb-3" controlId="email">
+            <Form.Group className="mb-3" controlId="password">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 required
@@ -141,7 +141,7 @@ function SignUp() {
 
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
             </Form.Group>
-            <Form.Group className="mb-3" controlId="email">
+            <Form.Group className="mb-3" controlId="confirmPassword">
               <Form.Label>Confirm Password</Form.Label>
               <Form.Control
                 required

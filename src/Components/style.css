@@ -756,6 +756,15 @@ footer .footer-third .socials div:hover {
   margin-right: 15px;
   margin-top: 15px;
 }
+.cart-item .decrease {
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0px 15px;
+  color: #eee;
+  background-color: #4e8ce2;
+  margin-right: 15px;
+  margin-top: 15px;
+}
 .cart-item .amount {
   font-weight: bold;
   margin-right: 15px;
@@ -825,4 +834,170 @@ footer .footer-third .socials div:hover {
 .cart {
   position: relative;
   background-color: #f1f1f1;
+}
+
+/* Modal */
+.modal {
+  /* z-index: 10; */
+  background-color: red;
+  height: 250px;
+  width: 300px;
+  border-color: red;
+}
+.modal .confirm-btn {
+  padding: 10px;
+  border: #0167f3 2px solid;
+  color: #0167f3;
+}
+.modal .cancel-btn {
+  padding: 10px;
+  border: #f73232 2px solid;
+  color: #f73232;
+}
+
+/* =================================
+    My Account Page
+===================================*/
+
+/* Account */
+.account {
+  /* border: solid thin red; */
+  /* background-color: #aaaaaa !important; */
+  /* max-width: 400px; */
+  margin-top: 20px;
+}
+.my-account,
+.settings {
+  background-color: #f9f9f9 !important;
+  border-radius: 3px;
+  margin: 10px 5px;
+  padding: 5px 5px;
+}
+
+.account-title {
+  /* font-size: 17px; */
+  color: #aaaaaa;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.my-account p,
+.settings p {
+  padding: 5px 5px;
+}
+.my-account p:hover,
+.settings p:hover {
+  color: #0167f3;
+}
+.account .log-out {
+  padding: 10px;
+  margin: 5px;
+  color: #eee;
+  background-color: #0167f3;
+  border-radius: 6px;
+}
+.account .log-out:hover {
+  color: #0167f3;
+  background-color: #eee;
+}
+.left-nav {
+  /* border: red thin solid; */
+  background-color: #f9f9f9;
+}
+.account-full {
+  /* background-color: #f1f1f1 !important; */
+  margin: 40px 0px;
+  /* min-height: 850px; */
+}
+@media (min-width: 768px) {
+  .sub-account {
+    background-color: #f9f9f9;
+    min-height: 510px;
+  }
+  .section-title {
+    padding: 10px 3px;
+    border-bottom: #f1f1f1 2px solid;
+  }
+}
+
+/* Overview */
+/* .overview {
+  background-color: #f9f9f9;
+  min-height: 510px;
+} */
+.overview hr {
+  width: 100%;
+}
+.section-title {
+  padding: 10px 3px;
+  border-bottom: #f1f1f1 2px solid;
+}
+.overview-section {
+  border: #f1f1f1 2px solid;
+  /* padding-left: 15px; */
+}
+.overview-section h5 {
+  margin: 12px 10px;
+  padding-bottom: 10px;
+  border-bottom: #f1f1f1 2px solid;
+}
+.overview-section p {
+  margin: 8px 8px;
+}
+.overview-section .overview-address p {
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+/* Order */
+.order {
+  margin-top: 20px;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.order span {
+  color: #aaaaaa;
+  display: block;
+  margin-top: 10px;
+}
+.order button {
+  padding: 10px;
+  background-color: #0167f3;
+  color: #eee;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.order button:hover {
+  color: #0167f3;
+  background-color: #eee;
+}
+.order-1 {
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Close Account */
+.close-account {
+  margin: 20px 0px;
+}
+.close-account p {
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.close-account button {
+  padding: 10px;
+  border-radius: 6px;
+  color: #eee;
+  background-color: #0167f3;
+  margin: 20px 0px;
+}
+/* Address */
+
+/* Change Password */
+.change-password {
+  border-radius: 5px;
+  margin: 20px 5px;
+  padding: 10px 2px;
 }

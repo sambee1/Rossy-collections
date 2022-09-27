@@ -8,6 +8,9 @@ import { MdDelete } from "react-icons/md";
 function CartItem(props) {
   const { amount } = useSelector((store) => store.cart);
   const dispatch = useDispatch();
+  const styles = {
+    backgroundColor: props.amount === 1 ? "#4e8ce2" : "#0167f3",
+  };
   return (
     <div>
       <Container>
@@ -52,10 +55,14 @@ function CartItem(props) {
                 >
                   +
                 </button>
-                <p className="amount">{amount}</p>
+                <p className="amount">{props.amount}</p>
                 <button
-                  className="increase"
-                  onClick={() => dispatch(decrease(props.id))}
+                  className="decrease"
+                  style={styles}
+                  onClick={() => {
+                    if (props.amount === 1) return;
+                    dispatch(decrease(props.id));
+                  }}
                 >
                   -
                 </button>

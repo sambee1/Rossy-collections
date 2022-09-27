@@ -18,6 +18,7 @@ function Jacket(props) {
           category={e.category}
           price={e.price}
           rating={e.rating}
+          amount={e.amount}
         />
       ) : null;
     }

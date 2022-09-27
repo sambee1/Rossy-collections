@@ -13,10 +13,11 @@ import {
   BsChevronUp,
 } from "react-icons/bs";
 import { useSelector } from "react-redux";
+import Modal from "./Modal";
 
 function Home() {
   const { cartItems } = useSelector((store) => store.cart);
-  console.log(cartItems);
+  // console.log(cartItems);
   return (
     <div className="mt-4">
       <Container>
@@ -106,6 +107,7 @@ function Home() {
           </ul>
         </div>
       </section>
+      <Modal />
     </div>
   );
 }
