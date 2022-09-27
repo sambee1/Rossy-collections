@@ -59,9 +59,9 @@ function OffcanvasExample() {
                   className={`dropdown-content ${shown ? "block" : "hidden"}`}
                 >
                   <Link to="sign-in">Sign in</Link>
-                  <a href="#">My Account</a>
-                  <a href="#">Orders</a>
-                  <a href="#">Saved Items</a>
+                  <Link to="/account/inbox">Inbox</Link>
+                  <Link to="/account/orders">Orders</Link>
+                  <Link to="/account/saved-items">Saved Items</Link>
                 </div>
               </div>
 
@@ -137,13 +137,13 @@ function OffcanvasExample() {
                         <Link to="sign-in">Sign in</Link>
                       </div>
                       <div>
-                        <Link to="account">My Account</Link>
+                        <Link to="/account/inbox">Inbox</Link>
                       </div>
                       <div>
-                        <Link to="orders">Orders</Link>
+                        <Link to="/account/orders">Orders</Link>
                       </div>
                       <div>
-                        <Link to="saved-items">Saved Items</Link>
+                        <Link to="/account/saved-items">Saved Items</Link>
                       </div>
                     </div>
                     <div>

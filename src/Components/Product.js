@@ -17,6 +17,7 @@ function Product({ data }) {
           category={e.category}
           image={e.image}
           description={e.description}
+          amount={e.amount}
         />
       );
     return true;
